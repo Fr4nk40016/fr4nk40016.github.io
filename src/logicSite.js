@@ -1,3 +1,6 @@
 function saluta(){
-    alert("Ciao sto usando javascript");
+    alert("Sto creando un paragrafo!");
+    let p = document.createElement("p");
+    p.textContent = "Creato con JS!";
+    document.body.appendChild(p);
 }
